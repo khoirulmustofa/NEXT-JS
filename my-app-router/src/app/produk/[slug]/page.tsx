@@ -1,5 +1,5 @@
-type parameters = { params: { slug: string } };
-export default function KategoriPage(props: parameters) {
+type detailProductProps = { params: { slug: string } };
+export default function KategoriPage(props: detailProductProps) {
   const { params } = props;
   console.log(params);
   
