@@ -28,8 +28,8 @@ export default function RootLayout({
       <body className={inter.className}>
         { !disableNavbar.includes(pathName) && <Navbar></Navbar>}
         
-        <h1>Layout {state}</h1>
-        <button onClick={() => setState(state + 1)}>Klik</button>
+        {/* <h1>Layout {state}</h1>
+        <button onClick={() => setState(state + 1)}>Klik</button> */}
         {children}
       </body>
     </html>
